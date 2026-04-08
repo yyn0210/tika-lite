@@ -19,14 +19,15 @@
   under the License.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.apache</groupId>
     <artifactId>apache</artifactId>
     <version>37</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>com.janeluo</groupId>
@@ -44,226 +45,8 @@
 
   <url>https://tika.apache.org/</url>
 
-  <organization>
-    <name>The Apache Software Foundation</name>
-    <url>https://www.apache.org</url>
-  </organization>
-
-  <issueManagement>
-    <system>JIRA</system>
-    <url>https://issues.apache.org/jira/browse/TIKA</url>
-  </issueManagement>
-
-  <ciManagement>
-    <system>Jenkins</system>
-    <url>https://ci-builds.apache.org/job/Tika/</url>
-  </ciManagement>
-
-  <mailingLists>
-    <mailingList>
-      <name>Development mailing list</name>
-      <subscribe>dev-subscribe@tika.apache.org</subscribe>
-      <unsubscribe>dev-unsubscribe@tika.apache.org</unsubscribe>
-      <post>dev@tika.apache.org</post>
-      <archive>https://lists.apache.org/list.html?dev@tika.apache.org</archive>
-      <otherArchives>
-        <otherArchive>http://mail-archives.apache.org/mod_mbox/tika-dev/</otherArchive>
-        <otherArchive>http://mail-archives.apache.org/mod_mbox/lucene-tika-dev</otherArchive>
-        <otherArchive>http://www.mail-archive.com/dev@tika.apache.org</otherArchive>
-        <otherArchive>http://www.mail-archive.com/tika-dev@lucene.apache.org/</otherArchive>
-        <otherArchive>http://www.mail-archive.com/tika-dev@incubator.apache.org/</otherArchive>
-        <otherArchive>http://www.nabble.com/Apache-Tika---Development-f20913.html</otherArchive>
-        <otherArchive>http://news.gmane.org/gmane.comp.apache.tika.devel</otherArchive>
-        <otherArchive>http://tika.markmail.org/</otherArchive>
-      </otherArchives>
-    </mailingList>
-    <mailingList>
-      <name>Commit mailing list</name>
-      <subscribe>commits-subscribe@tika.apache.org</subscribe>
-      <unsubscribe>commits-unsubscribe@tika.apache.org</unsubscribe>
-      <post>commits@tika.apache.org</post>
-      <archive>https://lists.apache.org/list.html?commits@tika.apache.org</archive>
-      <otherArchives>
-        <otherArchive>http://mail-archives.apache.org/mod_mbox/tika-commits/</otherArchive>
-        <otherArchive>http://mail-archives.apache.org/mod_mbox/lucene-tika-commits/</otherArchive>
-        <otherArchive>http://www.mail-archive.com/tika-commits@lucene.apache.org/</otherArchive>
-        <otherArchive>http://www.mail-archive.com/tika-commits@incubator.apache.org/</otherArchive>
-      </otherArchives>
-    </mailingList>
-    <mailingList>
-      <name>User mailing list</name>
-      <subscribe>user-subscribe@tika.apache.org</subscribe>
-      <unsubscribe>user-unsubscribe@tika.apache.org</unsubscribe>
-      <post>user@tika.apache.org</post>
-      <archive>https://lists.apache.org/list.html?user@tika.apache.org</archive>
-      <otherArchives>
-        <otherArchive>http://mail-archives.apache.org/mod_mbox/tika-user/</otherArchive>
-        <otherArchive>http://mail-archives.apache.org/mod_mbox/lucene-tika-user/</otherArchive>
-        <otherArchive>http://www.mail-archive.com/tika-user@lucene.apache.org/</otherArchive>
-      </otherArchives>
-    </mailingList>
-  </mailingLists>
 
   <developers>
-    <developer>
-      <name>Rida Benjelloun</name>
-      <id>ridabenjelloun</id>
-      <email>ridabenjelloun@apache.org</email>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Mark Harwood</name>
-      <id>mharwood</id>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Ken Krugler</name>
-      <id>kkrugler</id>
-      <email>kkrugler@apache.org</email>
-      <url>http://ken-blog.krugler.org</url>
-      <organization>Scale Unlimited</organization>
-      <organizationUrl>http://www.scaleunlimited.com</organizationUrl>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Chris A. Mattmann</name>
-      <id>mattmann</id>
-      <email>mattmann@apache.org</email>
-      <url>http://people.apache.org/~mattmann/</url>
-      <organization>NASA Jet Propulsion Laboratory</organization>
-      <organizationUrl>http://www.jpl.nasa.gov</organizationUrl>
-      <timezone>-8</timezone>
-      <properties />
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Michael McCandless</name>
-      <id>mikemccand</id>
-      <email>mikemccand@apache.org</email>
-      <organization>IBM</organization>
-      <properties />
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Dave Meikle</name>
-      <id>dmeikle</id>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Sami Siren</name>
-      <id>siren</id>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Nick Burch</name>
-      <id>nick</id>
-      <organization>Alfresco</organization>
-      <organizationUrl>http://alfresco.com</organizationUrl>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Maxim Valyanskiy</name>
-      <id>maxcom</id>
-      <organization>Jet Infosystems</organization>
-      <roles>
-        <role>committer</role>
-      </roles>
-      <timezone>+3</timezone>
-    </developer>
-    <developer>
-      <name>Oleg Tikhonov</name>
-      <id>oleg</id>
-      <roles>
-        <role>committer</role>
-      </roles>
-      <timezone>+2</timezone>
-    </developer>
-    <developer>
-      <name>Ray Gauss II</name>
-      <id>rgauss</id>
-      <organization>Alfresco</organization>
-      <organizationUrl>http://alfresco.com</organizationUrl>
-      <timezone>-5</timezone>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Tyler Palsulich</name>
-      <id>tpalsulich</id>
-      <timezone>-8</timezone>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Tim Allison</name>
-      <id>tallison</id>
-      <timezone>-5</timezone>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Konstantin Gribov</name>
-      <id>grossws</id>
-      <timezone>+3</timezone>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Tilman Hausherr</name>
-      <id>tilman</id>
-      <timezone>Europe/Berlin</timezone>
-      <roles>
-        <role>committer</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Jukka Zitting</name>
-      <id>jukka</id>
-      <roles>
-        <role>emeritus</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Julien Nioche</name>
-      <id>jnioche</id>
-      <roles>
-        <role>emeritus</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Keith Bennett</name>
-      <id>kbennett</id>
-      <roles>
-        <role>emeritus</role>
-      </roles>
-    </developer>
-    <developer>
-      <name>Niall Pemberton</name>
-      <id>niallp</id>
-      <roles>
-        <role>emeritus</role>
-      </roles>
-    </developer>
   </developers>
   <contributors>
     <contributor>
@@ -302,6 +85,9 @@
     <maven.jar.version>3.5.0</maven.jar.version>
     <maven.scr.version>1.26.4</maven.scr.version>
     <maven.shade.version>3.6.2</maven.shade.version>
+    <maven-gpg-plugin.version>3.2.8</maven-gpg-plugin.version>
+    <maven-source-plugin.version>3.4.0</maven-source-plugin.version>
+
     <maven.project.info.reports.version>3.9.0</maven.project.info.reports.version>
     <!-- can't update to 11, needs jdk17 -->
     <puppycrawl.version>9.3</puppycrawl.version>
@@ -868,7 +654,7 @@
         <artifactId>log4j-core</artifactId>
         <version>${log4j2.version}</version>
         <exclusions>
-        <!-- weak dependency on org.osgi.core 4.3.1 -->
+          <!-- weak dependency on org.osgi.core 4.3.1 -->
           <exclusion>
             <groupId>org.osgi</groupId>
             <artifactId>org.osgi.core</artifactId>
@@ -1089,24 +875,24 @@
       </dependency>
       <!-- for zookeeper to avoid security fail -->
       <dependency>
-          <groupId>ch.qos.logback</groupId>
-          <artifactId>logback-core</artifactId>
-          <version>${logback.version}</version>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-core</artifactId>
+        <version>${logback.version}</version>
       </dependency>
       <dependency>
-          <groupId>ch.qos.logback</groupId>
-          <artifactId>logback-classic</artifactId>
-          <version>${logback.version}</version>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>${logback.version}</version>
       </dependency>
       <dependency>
-          <groupId>org.bytedeco</groupId>
-          <artifactId>hdf5</artifactId>
-          <version>${hdf5.version}</version>
+        <groupId>org.bytedeco</groupId>
+        <artifactId>hdf5</artifactId>
+        <version>${hdf5.version}</version>
       </dependency>
       <dependency>
-          <groupId>org.bytedeco</groupId>
-          <artifactId>hdf5-platform</artifactId>
-          <version>${hdf5.version}</version>
+        <groupId>org.bytedeco</groupId>
+        <artifactId>hdf5-platform</artifactId>
+        <version>${hdf5.version}</version>
       </dependency>
       <dependency>
         <groupId>com.nimbusds</groupId>
@@ -1129,19 +915,35 @@
     </dependency>
   </dependencies>
 
+
   <build>
     <pluginManagement>
       <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-deploy-plugin</artifactId>
-        <version>3.1.4</version>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-enforcer-plugin</artifactId>
-        <version>3.6.2</version>
-      </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>3.1.4</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-enforcer-plugin</artifactId>
+          <version>3.6.2</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>3.3.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>3.10.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>3.2.7</version>
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
@@ -1192,9 +994,9 @@
             </coordinate>
             <!-- [CVE-2025-1948], used in the Solr emitter. No apparent upgrade available yet. -->
             <coordinate>
-                <groupId>org.eclipse.jetty.http2</groupId>
-                <artifactId>http2-common</artifactId>
-                <version>11.0.26</version>
+              <groupId>org.eclipse.jetty.http2</groupId>
+              <artifactId>http2-common</artifactId>
+              <version>11.0.26</version>
             </coordinate>
             <!-- used only in tests and in tika-eval, and this problem requires the use of the console.
                  https://github.com/h2database/h2database/issues/1294 -->
@@ -1228,14 +1030,14 @@
                  https://www.hdfgroup.org/2024/05/new-hdf5-cve-issues-fixed-in-1-14-4/
             -->
             <coordinate>
-                <groupId>org.bytedeco</groupId>
-                <artifactId>hdf5</artifactId>
-                <version>1.14.3-1.5.10</version>
+              <groupId>org.bytedeco</groupId>
+              <artifactId>hdf5</artifactId>
+              <version>1.14.3-1.5.10</version>
             </coordinate>
             <coordinate>
-                <groupId>org.bytedeco</groupId>
-                <artifactId>hdf5-platform</artifactId>
-                <version>1.14.3-1.5.10</version>
+              <groupId>org.bytedeco</groupId>
+              <artifactId>hdf5-platform</artifactId>
+              <version>1.14.3-1.5.10</version>
             </coordinate>
             <coordinate>
               <groupId>org.springframework</groupId>
@@ -1348,9 +1150,9 @@
             <id>enforce-maven</id>
             <configuration>
               <rules>
-                <dependencyConvergence />
+                <dependencyConvergence/>
                 <requireMavenVersion>
-                  <version>3.6.6</version>
+                  <version>3.9.0</version>
                 </requireMavenVersion>
               </rules>
             </configuration>
@@ -1432,7 +1234,7 @@
               <spaces>true</spaces>
               <spacesPerTab>4</spacesPerTab>
             </indent>
-            <removeUnusedImports />
+            <removeUnusedImports/>
             <importOrder>
               <order>\#,java|javax,,org.apache.tika</order>
             </importOrder>
@@ -1448,7 +1250,7 @@
         </executions>
       </plugin>
       <plugin>
-      <!-- mvn validate -->
+        <!-- mvn validate -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <version>${checkstyle.plugin.version}</version>
@@ -1478,125 +1280,147 @@
           </execution>
         </executions>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
 
   <profiles>
     <profile>
-      <id>pedantic</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.apache.rat</groupId>
-            <artifactId>apache-rat-plugin</artifactId>
-            <version>${rat.version}</version> <!-- keep this when version newer than apache parent -->
-            <configuration>
-              <excludes>
-                <exclude>nb-configuration.xml</exclude> <!-- local netbeans -->
-                <exclude>nbactions.xml</exclude> <!-- local netbeans -->
-                <exclude>**/test-documents/**</exclude>
-                <exclude>**/target/**</exclude> <!-- generated files -->
-              </excludes>
-            </configuration>
-            <executions>
-              <execution>
-                <phase>verify</phase>
-                <goals>
-                  <goal>check</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
-      <id>sonar</id>
+      <id>release</id>
+      <distributionManagement>
+        <snapshotRepository>
+          <id>oss</id>
+          <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+          <id>oss</id>
+          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+      </distributionManagement>
       <build>
         <plugins>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <configuration>
-              <excludes>
-                <exclude>**/ForkParser*Test.java</exclude>
-              </excludes>
-            </configuration>
+            <artifactId>maven-source-plugin</artifactId>
+            <version>${maven-source-plugin.version}</version>
+            <executions>
+              <execution>
+                <id>attach-sources</id>
+                <goals>
+                  <goal>jar-no-fork</goal>
+                </goals>
+              </execution>
+            </executions>
           </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
-      <id>doclint-java8-disable</id>
-      <activation>
-        <jdk>[1.8,)</jdk>
-      </activation>
-      <build>
-        <plugins>
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-javadoc-plugin</artifactId>
             <version>${maven.javadoc.version}</version>
-            <configuration>
-              <doclint>none</doclint>
-              <sourcepath>src/main/java</sourcepath>
-            </configuration>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
-      <id>ossindex-fail</id>
-      <!-- actually fail the build on vulnerabilities -->
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.sonatype.ossindex.maven</groupId>
-            <artifactId>ossindex-maven-plugin</artifactId>
-            <version>3.2.0</version>
-            <configuration>
-              <fail>true</fail>
-              <excludeCoordinates>
-                <!--            <coordinate>            </coordinate> -->
-              </excludeCoordinates>
-            </configuration>
             <executions>
               <execution>
-                <id>audit-dependencies</id>
-                <phase>validate</phase>
+                <id>attach-javadocs</id>
                 <goals>
-                  <goal>audit</goal>
+                  <goal>jar</goal>
                 </goals>
               </execution>
             </executions>
+            <configuration>
+              <encoding>UTF-8</encoding>
+              <charset>UTF-8</charset>
+              <docencoding>UTF-8</docencoding>
+              <doclint>none</doclint>
+              <quiet>true</quiet>
+              <failOnError>false</failOnError>
+            </configuration>
+          </plugin>
+          <!-- 测试覆盖度 -->
+          <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>cobertura-maven-plugin</artifactId>
+            <version>2.7</version>
+            <configuration>
+              <formats>
+                <format>html</format>
+                <format>xml</format>
+              </formats>
+              <check/>
+            </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>${maven-gpg-plugin.version}</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <gpgArguments>
+                <arg>--pinentry-mode</arg>
+                <arg>loopback</arg>
+              </gpgArguments>
+            </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.sonatype.central</groupId>
+            <artifactId>central-publishing-maven-plugin</artifactId>
+            <version>0.9.0</version>
+            <extensions>true</extensions>
+            <configuration>
+              <publishingServerId>central</publishingServerId>
+              <autoPublish>true</autoPublish>
+              <waitUntil>published</waitUntil>
+            </configuration>
           </plugin>
         </plugins>
       </build>
     </profile>
-    <profile>
-      <id>ci</id>
-      <properties>
-        <!-- Override the Spotless goal when this profile is active -->
-        <spotless.goal>check</spotless.goal>
-      </properties>
-    </profile>
-    <profile>
-      <id>fast</id>
-      <properties>
-        <!-- Skip tests for fast builds -->
-        <skipTests>true</skipTests>
-        <maven.test.skip>true</maven.test.skip>
-        <!-- Skip checkstyle -->
-        <checkstyle.skip>true</checkstyle.skip>
-        <!-- Skip spotless -->
-        <spotless.apply.skip>true</spotless.apply.skip>
-        <spotless.check.skip>true</spotless.check.skip>
-      </properties>
-    </profile>
+
 
   </profiles>
   <scm>
-    <tag>3.3.0-rc1</tag>
+    <tag>1.0.0</tag>
     <connection>scm:git:https://github.com/yyn0210/tika-lite.git</connection>
     <developerConnection>scm:git:https://github.com/yyn0210/tika-lite.git</developerConnection>
     <url>https://github.com/yyn0210/tika-lite</url>

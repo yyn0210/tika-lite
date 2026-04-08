@@ -35,11 +35,4 @@
     <module>tika-lite-parent</module>
     <module>tika-lite-core</module>
   </modules>
-
-
-  <build>
-    <plugins>
-      <!-- Build plugins configuration -->
-    </plugins>
-  </build>
 </project>
