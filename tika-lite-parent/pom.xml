@@ -1350,7 +1350,7 @@
               <rules>
                 <dependencyConvergence />
                 <requireMavenVersion>
-                  <version>3.5</version>
+                  <version>3.6.6</version>
                 </requireMavenVersion>
               </rules>
             </configuration>
