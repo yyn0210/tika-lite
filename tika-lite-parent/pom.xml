@@ -47,21 +47,12 @@
 
 
   <developers>
+      <developer>
+          <id>janeluo</id>
+          <name>Jane Luo</name>
+          <email>janeluo.y@gmail.com></email>
+      </developer>
   </developers>
-  <contributors>
-    <contributor>
-      <name>Doug Cutting</name>
-      <roles>
-        <role>mentor</role>
-      </roles>
-    </contributor>
-    <contributor>
-      <name>Bertrand Delacrétaz</name>
-      <roles>
-        <role>mentor</role>
-      </roles>
-    </contributor>
-  </contributors>
 
   <properties>
     <maven.compiler.source>8</maven.compiler.source>
