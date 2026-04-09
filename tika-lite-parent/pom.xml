@@ -90,7 +90,7 @@
 
     <maven.project.info.reports.version>3.9.0</maven.project.info.reports.version>
     <!-- can't update to 11, needs jdk17 -->
-    <puppycrawl.version>9.3</puppycrawl.version>
+    <puppycrawl.version>13.4.0</puppycrawl.version>
     <rat.version>0.17</rat.version>
     <spotless.goal>apply</spotless.goal>
     <!-- needs to be 2.x for Java 11 -->
