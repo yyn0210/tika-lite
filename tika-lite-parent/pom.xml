@@ -85,7 +85,7 @@
     <rat.version>0.17</rat.version>
     <spotless.goal>apply</spotless.goal>
     <!-- needs to be 2.x for Java 11 -->
-    <spotless.version>2.30.0</spotless.version>
+    <spotless.version>3.4.0</spotless.version>
 
     <!-- dependency versions -->
     <biz.aqute.version>6.4.1</biz.aqute.version>
