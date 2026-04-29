@@ -89,7 +89,7 @@
 
     <!-- dependency versions -->
     <biz.aqute.version>6.4.1</biz.aqute.version>
-    <commons.io.version>2.21.0</commons.io.version>
+    <commons.io.version>2.22.0</commons.io.version>
     <fakeload.version>0.7.0</fakeload.version>
     <guava.version>33.5.0-jre</guava.version>
     <!-- junit 6.x requires jdk 17 -->
